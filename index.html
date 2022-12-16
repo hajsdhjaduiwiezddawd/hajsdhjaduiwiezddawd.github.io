@@ -40,6 +40,9 @@
 <audio src="messi.mp3" autoplay loop id="miAudio"></audio>
 </body>
 <script>
-document.getElementById("miAudio").play();
+$(document).ready(function() {
+  var sonido = new Audio("messi.mp3");
+  sonido.play();
+});
 </script>
 </html>
