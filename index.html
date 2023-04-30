@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>que miras bobo</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="messi.ico" type="image/webp">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="script.js"></script>
+  <script type="text/javascript">
+     
+     title = "Te amo Lionel Andrés Messi Cuccittini ";
+            position = 0;
+            function scrolltitle() {
+                document.title = title.substring(position, title.length) + title.substring(0, position); 
+                position++;
+                if (position > title.length) position = 0;
+                titleScroll = window.setTimeout(scrolltitle,200);
+            }
+            scrolltitle();
+  </script>
+</head>
+<body>
+    <video loop autoplay muted style="width: 100vw;height: 100vh;object-fit: cover;position: fixed;left: 0;right: 0;top: 0;bottom: 0;z-index: -1" id="video"> <source src="https://cdn.discordapp.com/attachments/874059772779970611/1061156495166803988/Argentina_-_Cae_el_Sol____The_Last_Dance.mp4" type="video/mp4"></source> </video>
+</body>
+</html>
